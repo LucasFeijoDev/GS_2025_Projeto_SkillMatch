@@ -19,7 +19,7 @@ export function Login({ onLogin }: LoginProps) {
     e.preventDefault();
     
     if (!email || !password) {
-      toast.error('Por favor, preencha todos os campos');
+      toast.error('Por gentileza, preencha todos os campos');
       return;
     }
 
